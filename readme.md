@@ -83,10 +83,11 @@ Since css doesn't force any strict formatting, there tends to be several differe
 	z-index: 10;
 
 	/* display / box-model */
-	display: inline-block;
+	display: block;
 	float: left;
 	clear: both;
 	overflow: hidden;
+	box-sizing: border-box;
 	margin: 10px 0;
 	padding-top: 5px;
 	padding-right: 10px;
@@ -97,7 +98,7 @@ Since css doesn't force any strict formatting, there tends to be several differe
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	background: url(images/sprite.png) no-repeat right top;
-	box-shadow: rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
 
 	/* text / fonts */
 	color: #333;
