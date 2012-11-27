@@ -277,4 +277,5 @@ The ``.nav-main`` height could differ in browsers depending on font rendering or
 
 ## Links
 - [CSScomb](http://csscomb.com/)
+- [CSS Lint](http://csslint.net/)
 - [Sublime Text 2](http://www.sublimetext.com/2)
