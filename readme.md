@@ -21,7 +21,7 @@ Since css doesn't force any strict formatting, there tends to be several differe
 - There should be no extra tabs or spaces at the end of lines. Most text editors have an option to show invisible white-space, selecting text usually shows extra spaces as well
 
 ### Selectors
-- Use lowercase with hyphens to separate multiple words ``.my-selector`` (unless there is no control over the html markup)
+- Use lowercase with hyphens to separate words ``.my-selector``, avoid camelCase and under_scores (unless there is no control over the html markup)
 - Each selector should be on it's own line for a comma-separated list
 - There should be one space between the selector and the opening curly brace ``.selector {``
 - Declarations inside the curly braces should be indented
