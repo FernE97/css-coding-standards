@@ -167,7 +167,7 @@ Since css doesn't force any strict formatting, there tends to be several differe
 
 <h3 id="over-qualified">Over Qualified Selectors</h3>
 
-Over-qualifying selectors are unecessary such as ``div.container``. This will limit the selector to only div's with a class of container, which most of the time isn't necessary. They can also cause specificity issues and lead to long messy selectors.
+Over-qualifying selectors are unnecessary such as ``div.container``. This will limit the selector to only div's with a class of container, which most of the time isn't necessary. They can also cause specificity issues and lead to long messy selectors.
 
 ```css
 /*=Over-qualified
@@ -268,13 +268,12 @@ The ``.nav-main`` height could differ in browsers depending on font rendering or
 
 
 ## References
-[idiomatic CSS](https://github.com/necolas/idiomatic-css)
-[Making WordPress CSS Coding Standards](http://make.wordpress.org/core/handbook/coding-standards/css/)
-[CSS-Tricks](http://css-tricks.com/)
-[CSS Wizardry](http://csswizardry.com/)
-My Head
+- [idiomatic CSS](https://github.com/necolas/idiomatic-css)
+- [Making WordPress CSS Coding Standards](http://make.wordpress.org/core/handbook/coding-standards/css/)
+- [CSS-Tricks](http://css-tricks.com/)
+- [CSS Wizardry](http://csswizardry.com/)
+- My Head
 
 ## Links
-[CSScomb](http://csscomb.com/)
-[Sublime Text 2](http://www.sublimetext.com/2)
-
+- [CSScomb](http://csscomb.com/)
+- [Sublime Text 2](http://www.sublimetext.com/2)
