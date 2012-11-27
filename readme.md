@@ -162,12 +162,12 @@ Since css doesn't force any strict formatting, there tends to be several differe
 - Avoid [over-qualified selectors](#over-qualified)
 - Avoid [over specific class names](#class-names)
 - Avoid using ["magic" numbers](#magic-numbers), magic numbers are numbers that are used because they just work at the moment, but can be very fragile
-- Avoid using the font-shorthand property. This shorthand font property can become overly complicated and cause inheritance issues. The font-family must be declared every time too which isn't always necessary to declare.
+- Avoid using the font-shorthand property (all other shorthand properties are recommended). The shorthand font property can become overly complicated and cause inheritance issues. The font-family must be declared every time too which isn't always necessary.
 
 
 <h3 id="over-qualified">Over Qualified Selectors</h3>
 
-Over-qualifying selectors are unnecessary such as ``div.container``. This will limit the selector to only div's with a class of container, which most of the time isn't necessary. They can also cause specificity issues and lead to long messy selectors.
+Avoid using unnecessary ancestor selectors such as ``div.container``. This will limit the selector to only div's with a class of container, which most of the time isn't necessary. Over-qualifying can also cause specificity issues and lead to long messy selectors.
 
 ```css
 /*=Over-qualified
