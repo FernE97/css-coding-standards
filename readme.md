@@ -39,10 +39,6 @@ Since css doesn't force any strict formatting, there tends to be several differe
 	font-weight: bold;
 }
 
-.selector-3 {
-	padding: 10px;
-}
-
 /* incorrect - selectors on one line - closing bracket not on its own line */
 .selector-1, .selector-2 {
 	margin: 20px 0;
