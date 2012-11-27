@@ -28,6 +28,7 @@ Since css doesn't force any strict formatting, there tends to be several differe
 - Properties should be followed by a colon and one space ``display: block;``
 - Last declaration line should always have a semi-colon even though it's not required
 - Closing curly brace should be on it's own line below all the declarations and in the same column as the selector(s)
+- Each Property should be separated by one line space
 
 ```css
 /* correct */
@@ -120,7 +121,6 @@ Since css doesn't force any strict formatting, there tends to be several differe
 <a name="comments"></a>
 ## 3. Comments
 
-- Each Property should be separated by one line space
 - Section comments should have one blank line above
 - I suggest that section comments should be 70 columns wide (including the closing */), prepend the section name with an equal sign (search for =layout to find section faster)
 - Sub-sections should be 50 columns wide and prepend the main section title ``/*=Layout / Header``
